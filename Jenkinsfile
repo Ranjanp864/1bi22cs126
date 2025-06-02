@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Prajna1101/MavenTomcatAnsibleWebapp.git'
+                git 'https://github.com/Ranjanp864/1bi22cs126.git'
             }
         }
         stage('Build') {
